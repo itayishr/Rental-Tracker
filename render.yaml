@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: apartment-hunter
+    name: rental-tracker
     env: docker
     plan: free
     autoDeploy: true
