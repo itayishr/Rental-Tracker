@@ -9,8 +9,13 @@ if [[ ! -f package.json || ! -f server.js ]]; then
   exit 1
 fi
 
-cat > Dockerfile <<'EOF'
-FROM mcr.microsoft.com/playwright:v1.50.1-jammy
+PLAYWRIGHT_VERSION="$(node -p "const lock=require('./package-lock.json'); lock.packages?.['node_modules/playwright']?.version || ''")"
+if [[ -z "$PLAYWRIGHT_VERSION" ]]; then
+  PLAYWRIGHT_VERSION="1.59.1"
+fi
+
+cat > Dockerfile <<EOF
+FROM mcr.microsoft.com/playwright:v${PLAYWRIGHT_VERSION}-jammy
 
 WORKDIR /app
 
@@ -40,7 +45,7 @@ EOF
 cat > render.yaml <<'EOF'
 services:
   - type: web
-    name: apartment-hunter
+    name: rental-tracker
     env: docker
     plan: free
     autoDeploy: true
@@ -54,6 +59,6 @@ EOF
 
 echo "Created Dockerfile, .dockerignore, render.yaml"
 echo "Next:"
-echo "1) docker build -t apartment-hunter ."
-echo "2) docker run --rm -p 10000:10000 -e APP_PASSWORD='your-password' apartment-hunter"
+echo "1) docker build -t rental-tracker ."
+echo "2) docker run --rm -p 10000:10000 -e APP_PASSWORD='your-password' rental-tracker"
 echo "3) Push repo and deploy on Render (Docker)."
