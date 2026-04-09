@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: apartment-hunter
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_PASSWORD
+        sync: false

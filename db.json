@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1775739645001-4picke9av",
+    "createdAt": "2026-04-09T13:00:45.001Z",
+    "priority": 0,
+    "link": "https://www.yad2.co.il/realestate/item/tel-aviv-area/s8mcqefi?opened-from=feed&component-type=main_feed&spot=standard&lo",
+    "address": "הסוללים 3, תל אביב יפו",
+    "lat": 32.070411,
+    "lon": 34.796368,
+    "status": "חדש",
+    "rent": "9000",
+    "arnona": "",
+    "vaad_bayit": "",
+    "rooms": "3",
+    "floor": "3",
+    "entry_date": "",
+    "contact_name": "",
+    "contact_phone": "",
+    "has_mamad": false,
+    "has_ac": true,
+    "has_elevator": true,
+    "has_solar_heater": false,
+    "has_parking": true,
+    "is_renovated": false,
+    "notes": "",
+    "photo_url": "/uploads/apt_1775739642935_weg41u.jpg",
+    "ac": true,
+    "parking": true,
+    "elevator": true,
+    "external_image_url": "https://img.yad2.co.il/Pic/202603/06/2_2/o/y2_1pa_010364_20260306224023.jpeg",
+    "updatedAt": "2026-04-09T13:45:51.144Z"
+  }
+]

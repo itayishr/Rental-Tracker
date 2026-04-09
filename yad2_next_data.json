@@ -1,0 +1,181 @@
+{
+  "props": {
+    "pageProps": {
+      "isSpnRealestateAuthGuard": false,
+      "isSpnRealestateBusinessAuthGuard": false,
+      "isWhatsappAuthGuard": false,
+      "isLeadFormAuthGuard": false,
+      "dehydratedState": {
+        "mutations": [],
+        "queries": [
+          {
+            "state": {
+              "data": {
+                "token": "zrg9e7r2",
+                "orderId": 56749988,
+                "adNumber": 58354332,
+                "adType": "private",
+                "categoryId": 2,
+                "subcategoryId": 2,
+                "priority": 3,
+                "statusId": 1,
+                "price": 9000,
+                "additionalDetails": {
+                  "balconiesCount": 1,
+                  "entranceDate": "2026-03-29T00:00:00",
+                  "squareMeter": 85,
+                  "roomsCount": 3,
+                  "propertyGroup": {
+                    "id": 1,
+                    "text": "דירות ",
+                    "textEng": "apartments"
+                  },
+                  "property": {
+                    "id": 1,
+                    "text": "דירה",
+                    "textEng": "apartment"
+                  },
+                  "parkingSpacesCount": 1,
+                  "propertyCondition": {
+                    "id": 6,
+                    "text": "חדש (גרו בנכס)"
+                  },
+                  "squareMeterBuild": 80,
+                  "buildingTopFloor": 8
+                },
+                "inProperty": {
+                  "includeAirconditioner": true,
+                  "includeBalcony": true,
+                  "includeBoiler": true,
+                  "includeElevator": true,
+                  "includeParking": true,
+                  "includeSecurityRoom": true,
+                  "includeWarehouse": true,
+                  "isHandicapped": true,
+                  "isImmediateEntrance": true
+                },
+                "searchText": "שם מוכר רונית נכס להשכרה מסוג דירה מספר חדרים 3 בקומה 5 בכתובת שיינקין 26 שינקין גבעתיים אזור אזור רמת גן וגבעתיים מרכז הנכס כולל ממ\"ד מעלית חניה מחסן מיזוג גישה לנכים מרפסת מצב הנכס חדש (גרו בנכס) השכרה לטווח ארוך מספר תשלומים 12 כניסה מיידית תאור לקוח השדירה בת 3 חדרים (אחד מהם ממ\"ד), מחסן וחניה.\nברחוב שיינקין 26 בגבעתיים, קומה 5 עם מעלית.\nהדירה משופצת ושמורה היטב.\nבדירה ארונות ומזגן מיני מרכזי.\nשכר דירה חודשי 9000 שח.\n.כרה, דירה, קומה 5, גבעתיים שיינקין 26 ",
+                "address": {
+                  "topArea": {
+                    "id": 2,
+                    "text": "מרכז",
+                    "textEng": "hamerkaz_area"
+                  },
+                  "region": {
+                    "id": 3,
+                    "text": "תל אביב והסביבה",
+                    "textEng": "TLV"
+                  },
+                  "area": {
+                    "id": 3,
+                    "text": "אזור רמת גן וגבעתיים",
+                    "textEng": "ramat_gan_givataim"
+                  },
+                  "city": {
+                    "id": 6300,
+                    "text": "גבעתיים"
+                  },
+                  "neighborhood": {
+                    "id": 1481,
+                    "text": "שינקין"
+                  },
+                  "street": {
+                    "id": "0202",
+                    "text": "שיינקין"
+                  },
+                  "coords": {
+                    "lat": 32.074391,
+                    "lon": 34.811938
+                  },
+                  "house": {
+                    "number": 26,
+                    "floor": 5
+                  },
+                  "addressMasterId": 5647426
+                },
+                "metaData": {
+                  "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202603/29/2_2/o/y2_1_010377_20260329102022.mp4",
+                  "coverImage": "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010707_20260329101955.jpeg",
+                  "images": [
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010707_20260329101955.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010354_20260329101956.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010722_20260329101956.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010298_20260329101956.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010699_20260329101957.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010380_20260329101957.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010869_20260329101957.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010616_20260329101957.jpeg",
+                    "https://img.yad2.co.il/Pic/202603/29/2_2/o/y2_1pa_010885_20260329101957.jpeg"
+                  ],
+                  "description": "השדירה בת 3 חדרים (אחד מהם ממ\"ד), מחסן וחניה.\nברחוב שיינקין 26 בגבעתיים, קומה 5 עם מעלית.\nהדירה משופצת ושמורה היטב.\nבדירה ארונות ומזגן מיני מרכזי.\nשכר דירה חודשי 9000 שח.\n.כרה, דירה, קומה 5, גבעתיים",
+                  "shelterDistance": 303
+                },
+                "dates": {
+                  "updatedAt": "2026-04-09T12:00:45",
+                  "createdAt": "2026-03-29T10:20:54",
+                  "endsAt": "2026-05-13T00:00:00",
+                  "rebouncedAt": "2026-04-09T15:00:45"
+                },
+                "abovePrice": "7000",
+                "tags": [
+                  {
+                    "name": "ממ\"ד",
+                    "id": 1009,
+                    "priority": 1
+                  },
+                  {
+                    "name": "נוף פתוח לעיר",
+                    "id": 1006,
+                    "priority": 1
+                  },
+                  {
+                    "name": "חניה",
+                    "id": 1003,
+                    "priority": 1
+                  }
+                ],
+                "isLongTermContract": true,
+                "houseCommittee": 500,
+                "paymentsInYear": 12
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1775733634662,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "item",
+              "zrg9e7r2"
+            ],
+            "queryHash": "[\"item\",\"zrg9e7r2\"]"
+          }
+        ]
+      },
+      "key": "zrg9e7r2",
+      "isMobileWithBottomBar": true,
+      "token": "zrg9e7r2",
+      "regionId": 3
+    },
+    "isAiSearchEnabled": false,
+    "__N_SSP": true
+  },
+  "page": "/item/[region]/[token]",
+  "query": {
+    "region": "tel-aviv-area",
+    "token": "zrg9e7r2"
+  },
+  "buildId": "Ur0xkkqhwchD79KYTX0v2",
+  "assetPrefix": "/realestate",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "appGip": true,
+  "scriptLoader": []
+}
